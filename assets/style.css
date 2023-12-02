@@ -21,10 +21,12 @@ a {
     color: darkslategray;
 }
 
+/* Cause links to change color when hovered*/
 a:hover {
     color: blanchedalmond;
 }
 
+/* Set header position to fixed so it stays at the top of the page on scroll */
 header {
     position: fixed;
     top: 0;
@@ -32,6 +34,7 @@ header {
     background-color: palevioletred;
 }
 
+/* center align navigation bar */
 header nav ul {
     text-align: center;
 }
@@ -43,9 +46,10 @@ header nav ul li {
 
 .container {
     width: 1024px;
-    margin: 0 auto 100px;
+    margin: 0 auto;
 }
 
+/* each section in the container takes up 50% of width*/
 #captioned-image, #contact-form {
     float: left;
     width: 50%;
@@ -72,6 +76,7 @@ header nav ul li {
     
 }
 
+/* remove default styling on lists in form*/
 #contact-form ul {
     list-style: none;
 }
