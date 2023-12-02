@@ -46,7 +46,7 @@ header nav ul li {
 
 .container {
     width: 1024px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 
 /* each section in the container takes up 50% of width*/
