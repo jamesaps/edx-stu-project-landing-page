@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Student Project Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="./assets/style.css">
     </head>
 
     <body>
@@ -24,38 +25,43 @@
             </nav>
         </header>
 
-        <section id="captioned-image">
-            <h2>I hope you like kittens!</h2>
+        <div class="container">
+            <section id="captioned-image">
+                <h2>I hope you like kittens!</h2>
+    
+                <figure>
+                    <img src="https://placekitten.com/512/400" alt="A cute kitten image" />
+                    <figcaption>Cute kitten</figcaption>
+                </figure>
+            </section>
 
-            <figure>
-                <img src="https://placekitten.com/300/400" alt="A cute kitten image" />
-                <figcaption>Cute kitten</figcaption>
-            </figure>
+            <section id="contact-form">
+                <form>
+                    <h2>Contact Form</h2>
+                    
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" />
+                        </li>
+    
+                        <li>
+                            <label for="email">
+                                Email:
+                                
+                            </label>
+                            <input type="email" id="email" name="email" />
+                        </li>
+                    </ul>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
         </section>
 
-        <section id="contact-form">
-            <form>
-                <h2>Contact Form</h2>
-                
-                <ul>
-                    <li>
-                        <label for="name">
-                            Name:
-                            <input type="text" id="name" name="name">
-                        </label>
-                    </li>
+        
 
-                    <li>
-                        <label for="email">
-                            Email:
-                            <input type="email" id="email" name="email">
-                        </label>
-                    </li>
-                </ul>
-               
-                <button type="submit">Send</button>
-            </form>
-        </section>
+        
 
         <footer>
             
