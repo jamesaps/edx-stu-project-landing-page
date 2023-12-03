@@ -44,6 +44,18 @@ header nav ul li {
     margin: 10px 20px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+footer p {
+    text-align: center;
+    color: aliceblue;
+}
+
 .container {
     width: 1024px;
     margin: 0 auto 100px;
